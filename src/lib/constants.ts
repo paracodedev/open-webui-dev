@@ -31,7 +31,8 @@ export const SUPPORTED_FILE_TYPE = [
 	'text/markdown',
 	'audio/mpeg',
 	'audio/wav',
-	'video/mp4'
+	'video/mp4',
+	'audio/flac'
 ];
 
 export const SUPPORTED_FILE_EXTENSIONS = [
