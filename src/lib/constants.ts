@@ -30,7 +30,6 @@ export const SUPPORTED_FILE_TYPE = [
 	'application/x-javascript',
 	'text/markdown',
 	'audio/mpeg',
-	'audio/flac',
 	'audio/wav'
 ];
 
