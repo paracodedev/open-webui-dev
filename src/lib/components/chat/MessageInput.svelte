@@ -243,7 +243,7 @@
 		try {
 			files = [...files, doc];
 
-			if (['audio/mpeg', 'audio/wav'].includes(file['type'])) {
+			if (['audio/mpeg', 'audio/wav', 'video/mp4'].includes(file['type'])) {
 				const res = await transcribeAudio(localStorage.token, file).catch((error) => {
 					toast.error(error);
 					return null;
